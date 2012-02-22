@@ -5,9 +5,10 @@ Scripts and data for the poster. The purpose is to
 * introduce CitedIn and total-impact as tools for collecting altmetrics
 * show altmetrics for a set of real-life articles from NESCent.
 
+datasets
+--------
+Datasets are available here on GitHub, in the [Downloads](https://github.com/jasonpriem/altmetrics-tools-iConference-poster/downloads) section.
 
-changes to the data
--------------------
 ### sept. 24
 
 Removed lines 78 & 79, "10.1093/molbev/ms149,14527503\n10.1093/molbev/ms149,13683564" from doi2pmid.csv. Neither pmid is in citedin-results.csv, and I couldn't get CrossRef to resolve the DOI. Strangely it seems TI could, as there's a year for the DOI in total-impact-results, so I'm deleting this row (159) as well, for consistancy.
